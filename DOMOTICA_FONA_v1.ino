@@ -628,9 +628,6 @@ void leerSensores() {
       Serial.print(F("Li-Po battery VPct = ")); Serial.print(vbat); Serial.println(F("%"));
     }
   
-    // Ubidots authentification token
-    //String token = "wDWuIUEHtpH1BFZJ6WETr4NlAiw5Vv";
-  
     // Enviamos temperatura a Ubidots
     PrintSeconds();
     Serial.println(F("************ Enviando temperatura a Ubidots"));
